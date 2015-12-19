@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:scrollingCache">false</item>
+    </style>
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/ColorPrimaryDark</item>
+    </style>
+
+
+    <style name="CustomTheme.Toolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:titleTextStyle">@style/CustomTheme.TextPrimary</item>
+    </style>
+
+    <style name="CustomTheme.Toolbar.Popup" parent="@style/ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomTheme.TextPrimary" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+</resources>
